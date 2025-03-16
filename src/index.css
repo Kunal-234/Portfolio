@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  /* background: linear-gradient(140deg,rgb(1, 89, 111),rgb(2, 2, 11)); */
+  background-size: cover;
+  
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#wrapper-canvas canvas {
+  max-width: 100%;
+}

@@ -1,0 +1,149 @@
+
+.cont{
+    gap: 50px;
+}
+.left{
+    margin-left: 120px;
+
+    width: 30vw;
+}
+.right{
+    width: 40vw;
+    margin-left: 80px;
+
+}
+.contact h1{
+    font-size: 4rem;
+    color: white;
+    background: linear-gradient(120deg,rgb(74, 96, 241),rgba(228, 5, 217));
+     /* background: linear-gradient(120deg, rgb(90, 205, 255), rgb(26, 26, 215)); */
+    font-weight: 660;
+    opacity: 222;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cont h2{
+    font-family: cursive;
+    font-size: 2.5rem;
+    color: white;
+    background: linear-gradient(120deg,rgb(74, 96, 241),rgba(228, 5, 217));
+    /* background: linear-gradient(120deg, rgb(10, 163, 229), rgb(69, 69, 211)); */
+    font-weight: 600;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.t{
+    margin: 0;
+}
+.right div{
+    margin: 10px;
+}
+.right input{
+    background-color: rgb(38, 38, 52);
+    border: none;
+    padding: 10px;
+    width: 30vw;
+    height: 40px;
+    color: white;
+}
+.right textarea{
+    background-color: rgb(38, 38, 52);
+    border: none;
+    padding: 10px;
+    width: 30vw;
+    color: white;
+    height: 190px;
+}
+.submit-btn{
+    height: 45px;
+    width: 170px;
+    border-radius: 100px;
+    border: none;
+    background-color: blue;
+    /* background: linear-gradient(120deg, rgb(1, 83, 118), rgb(0, 0, 107)); */
+    background: linear-gradient(120deg,rgb(1, 28, 201),rgb(167, 20, 204));
+
+    color: white;
+  
+    font-size: .99rem;
+    box-shadow: 0px 0px 3px rgb(0, 0, 0);
+}
+.submit-btn:hover{
+    transform: scale(1.06);
+    transition: 0.2s;
+}
+.box i{
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 480px){
+    .contact h1{
+        margin: 0;
+    }
+    .cont{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        gap: 0;
+    }
+   
+    .left{
+        margin-left: 0;
+        font-size: .9rem;
+        margin-bottom: 10px;
+        width: 100vw;
+    }
+    .right{
+        width: 100vw;
+        margin-left: 0;
+    
+    }
+    .contact h1{
+        font-size: 3.5rem;
+        color: white;
+        background: linear-gradient(120deg,rgb(74, 96, 241),rgba(228, 5, 217));
+         /* background: linear-gradient(120deg, rgb(90, 205, 255), rgb(26, 26, 215)); */
+        font-weight: 660;
+        opacity: 222;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .cont h2{
+        font-family: cursive;
+        font-size: 2rem;
+        color: white;
+        background: linear-gradient(120deg,rgb(74, 96, 241),rgba(228, 5, 217));
+        /* background: linear-gradient(120deg, rgb(10, 163, 229), rgb(69, 69, 211)); */
+        font-weight: 600;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .right div{
+        margin: 10px;
+        margin-left: 20px;
+    }
+    .right input{
+        background-color: rgb(38, 38, 52);
+        border: none;
+        padding: 10px;
+        width: 80vw;
+        height: 40px;
+        color: white;
+    }
+    .right textarea{
+        background-color: rgb(38, 38, 52);
+        border: none;
+        padding: 10px;
+        width: 80vw;
+        color: white;
+        height: 150px;
+    }
+    .t div{
+        margin:5px 4px ;
+    }
+    
+}

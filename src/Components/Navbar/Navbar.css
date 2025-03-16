@@ -1,0 +1,47 @@
+
+.navbar-nav{
+    margin-left: 13vw;
+}
+  .nav-Link {
+    text-decoration: none;
+  }
+.navbar-brand {
+    font-size: 2.3rem;
+    background: linear-gradient(120deg,rgb(11, 117, 255),rgba(178, 2, 157, 0.684));
+    font-weight: 660;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar-brand img{
+  height: 60px;
+  margin-bottom: 10px;
+  /* mix-blend-mode: multiply; */
+
+}
+
+  .connect-btn{
+    /* margin: 10px; */
+    height: 45px;
+    border-radius: 100px;
+    margin-left: 40px;
+    border: none;
+    background-color: blue;
+    background: linear-gradient(120deg,rgb(1, 83, 118),rgb(0, 0, 107));
+    color: white;
+    padding: 20px;
+font-family: Poppins;
+    font-size: .95rem;
+    /* font-weight: 300; */
+    box-shadow: 0px 0px 3px rgb(0, 0, 0);
+  }
+
+  a{
+    text-decoration: none;
+  }
+  .connect-btn:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+  .nav-Link:hover{
+    color: rgb(130, 174, 240);
+  }

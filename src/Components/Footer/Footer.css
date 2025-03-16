@@ -1,0 +1,157 @@
+.up{
+    margin-top: 100px;
+}
+
+
+.up-rightfoot input{
+    height: 58px;
+    width: 330px;
+    border-radius: 30px;
+    padding-left: 20px;
+    border: none;
+    background-color: rgb(38, 38, 52);
+
+
+}
+.up-rightfoot button{
+    height: 56px;
+    width: 135px;
+    border-radius: 40px;
+    border: none;
+    background-color: blue;
+    background: linear-gradient(120deg,rgb(1, 28, 201),rgb(167, 20, 204));
+
+    color: white;
+  margin-left: 10px;
+    font-size: .99rem;
+    box-shadow: 0px 0px 3px rgb(0, 0, 0);
+}
+.up-rightfoot button:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+.up-leftfoot h2{
+    font-size: 2.4rem;
+    font-weight: 600;
+background: linear-gradient(rgb(37, 9, 251),rgb(242, 67, 255));
+
+background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: cursive;
+}
+.up-leftfoot p{
+    font-size: .94rem;
+
+}
+.up-leftfoot {
+ width: 40vw;
+}
+.up-rightfoot{
+    margin-top: 50px;
+}
+.up{
+    gap:10vw
+}
+.kl{
+    width: 85vw;
+    color: white;
+    height: 1.5px;
+    border-radius: 20px;
+    margin: 30px 0px;
+    opacity: 2;
+    background-color: white;
+}
+.down{
+    width: 80vw;
+}
+.downright{
+    margin-right: px;
+    gap: 25px;
+}
+.downright p{
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 480px) {
+   
+    .up{
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    
+    
+    .up-rightfoot input{
+        height: 58px;
+        width: 300px;
+        border-radius: 30px;
+        padding-left: 20px;
+        border: none;
+        background-color: rgb(38, 38, 52);
+    
+    
+    }
+    .up-rightfoot button{
+        height: 56px;
+        width: 115px;
+        border-radius: 40px;
+        border: none;
+        background-color: blue;
+        background: linear-gradient(120deg,rgb(1, 28, 201),rgb(167, 20, 204));
+    
+        color: white;
+      margin-left: 3px;
+        font-size: .99rem;
+        box-shadow: 0px 0px 3px rgb(0, 0, 0);
+    }
+    .up-rightfoot button:hover{
+        transform: scale(1.05);
+        transition: 0.2s;
+    }
+    .up-leftfoot h2{
+        font-size: 2.2rem;
+        font-weight: 600;
+    background: linear-gradient(rgb(37, 9, 251),rgb(242, 67, 255));
+    
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    }
+    .up-leftfoot p{
+        font-size: .94rem;
+    
+    }
+    .up-leftfoot {
+     width: 92vw;
+    }
+    .up-rightfoot{
+        margin-top: 20px;
+    }
+    .up{
+        gap:4vw
+    }
+    .kl{
+        width: 95vw;
+        color: white;
+        height: 1.5px;
+        border-radius: 20px;
+        margin: 30px 0px;
+        opacity: 2;
+        background-color: white;
+    }
+    .down{
+        width: 95vw;
+        font-size: .55rem;
+    }
+    .downright{
+        gap: 10px;
+    }
+    .downright p{
+        cursor: pointer;
+    
+    }
+   .hero-right i{
+        font-size: 1.6rem;
+        margin-top: 20px;
+    }
+}

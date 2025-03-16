@@ -1,0 +1,67 @@
+
+.header h1{
+    font-size: 4rem;
+    color: white;
+    background: linear-gradient(120deg,rgb(74, 96, 241),rgba(228, 5, 217));
+
+    font-weight: 660;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.desc{
+    margin: 0px 20px;
+}
+.desc p{
+    color: white;
+    background: linear-gradient(120deg,rgb(253, 253, 253),rgba(224, 228, 227, 0.684));
+    font-weight: 660;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.skills{
+    gap: 20px;
+    color: white;
+}
+.progress-bar p{
+    font-weight: 550;
+    min-width: 150px;
+font-size: 25px;
+background: linear-gradient(120deg,rgb(253, 253, 253),rgba(121, 120, 124, 0.684));
+background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.progress-bar{
+    gap: 1vw;
+    align-items: center;
+    color: white;
+    width: 80vw;
+    justify-content: start;
+}
+.progress-bar hr{
+    outline: none;
+    border: none;
+    width: 50%;
+    border-radius: 50px;
+    height: 6px;
+    color: white;
+    /* background: linear-gradient(264deg,rgb(60, 21, 255) -5.09%,rgb(85, 227, 255) 106.28%); */
+    background: linear-gradient(264deg,rgb(157, 10, 241) -5.09%,rgb(5, 20, 233)106.28%);
+    opacity: .7;
+    margin-top: 4px;
+
+}
+.il{
+    z-index: -2;
+    mix-blend-mode: multiply;
+    opacity: .5;
+    position: absolute;
+    top: 100vh;
+    left: 0px;
+    width: 100vw;
+    height: 465%;
+    /* filter: invert(1); */
+    /* object-fit: cover; */
+  
+  
+  }
