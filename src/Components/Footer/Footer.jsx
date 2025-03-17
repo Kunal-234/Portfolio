@@ -18,23 +18,23 @@ export default function Footer() {
       </div>
       <div>
       <div style={{gap:"40px"}} className="hero-right d-flex mt-4 pt-2 justify-content-center">
-        <a href="https://instagram.com" target="__blank">
+        <a href="https://www.linkedin.com/in/kunal-kumar-792136340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="__blank">
           {" "}
           <i className="fa-brands fa-linkedin-in"></i>{" "}
         </a>
-        <a href="https://instagram.com" target="__blank">
+        <a href="https://github.com/Kunal-234" target="__blank">
           {" "}
           <i className="fa-brands fa-github"></i>{" "}
         </a>
-        <a href="https://instagram.com" target="__blank">
+        <a href="https://x.com/kunal__23?t=iuIAO11dJIlQoxh7fb2D8A&s=09" target="__blank">
           {" "}
           <i className="fa-brands fa-x-twitter"></i>{" "}
         </a>
-        <a href="https://instagram.com" target="__blank">
+        <a href="https://www.instagram.com/kunal._.234?igsh=MXczZXQ4NGRqOGp2eQ== " target="__blank">
           {" "}
           <i className="fa-brands fa-instagram"></i>{" "}
         </a>
-        <a href="https://instagram.com" target="__blank">
+        <a href="https://wa.me/918539872645" target="__blank">
           {" "}
           <i className="fa-brands fa-whatsapp"></i>{" "}
         </a>
