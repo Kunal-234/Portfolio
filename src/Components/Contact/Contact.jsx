@@ -10,8 +10,8 @@ export default function Contact() {
             <h2 className='my-4'>Let's talk</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus et voluptas voluptatum quos reprehenderit, est impedit laborum consequuntur maxime?
             </p>
-            <div className="box"><i className="fa-solid fa-envelope"></i>kunaljsr@gmail.com</div>
-            <div className="box"><i className="fa-solid fa-phone-volume"></i>9876389473</div>
+            <div className="box"><i className="fa-solid fa-envelope"></i>kunaljsr11@gmail.com</div>
+            <div className="box"><i className="fa-solid fa-phone-volume"></i>+91 8539872645</div>
             <div className="box"><i className="fa-solid fa-location-dot"></i>Jamshedpur,India</div>
         </div>
         <div className="right">
