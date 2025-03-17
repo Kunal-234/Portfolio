@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import il from '../Assets/l6.jpg'
+import il from '../Assets/bg1.jpg'
 
 export default function About() {
   return (

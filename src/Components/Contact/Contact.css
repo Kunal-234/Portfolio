@@ -82,6 +82,7 @@
 @media screen and (max-width: 480px){
     .contact h1{
         margin: 0;
+        padding:0;
     }
     .cont{
         flex-direction: column;
@@ -102,7 +103,7 @@
     
     }
     .contact h1{
-        font-size: 3.5rem;
+        font-size: 3.3rem;
         color: white;
         background: linear-gradient(120deg,rgb(74, 96, 241),rgba(228, 5, 217));
          /* background: linear-gradient(120deg, rgb(90, 205, 255), rgb(26, 26, 215)); */

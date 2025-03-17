@@ -4,7 +4,7 @@ import './Contact.css'
 export default function Contact() {
   return (
     <div id='contact' className='contact  my-4 p-4 d-flex flex-column align-items-center'>
-        <h1 className='my-4 py-4'>Get in touch</h1>
+        <h1 className='mt-4'>Get in touch</h1>
         <div className="cont  d-flex">
         <div className="left  px-4">
             <h2 className='my-4'>Let's talk</h2>

@@ -10,7 +10,7 @@
     padding-left: 20px;
     border: none;
     background-color: rgb(38, 38, 52);
-
+    color:white;
 
 }
 .up-rightfoot button{
@@ -83,7 +83,7 @@ font-family: cursive;
     
     .up-rightfoot input{
         height: 58px;
-        width: 300px;
+        width: 270px;
         border-radius: 30px;
         padding-left: 20px;
         border: none;
@@ -93,7 +93,7 @@ font-family: cursive;
     }
     .up-rightfoot button{
         height: 56px;
-        width: 115px;
+        width: 105px;
         border-radius: 40px;
         border: none;
         background-color: blue;
