@@ -18,13 +18,13 @@ export default function Project() {
             <div>
             <img src={image} alt="" />
             </div>
-            <div>
+            <div className='smHide'>
             <img src={image} alt="" />
             </div>
-            <div>
+            <div className='smHide'>
             <img src={image} alt="" />
             </div>
-            <div>
+            <div className='smHide'>
             <img src={image} alt="" />
             </div>
             

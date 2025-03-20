@@ -38,3 +38,15 @@
     transform: scale(1.07);
     transition: .2s;
 }
+
+@media screen and (max-width:480px){
+    .img-container img{
+        width: 350px;
+        height: 240px;
+        border-radius: 20px;
+        transition: .5s;
+    }
+    .smHide{
+        display: none;
+    }
+}
