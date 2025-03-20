@@ -12,7 +12,7 @@ export default function Navbar() {
             Portfolio
           </AnchorLink>
           <button
-            className="navbar-toggler m"
+            className="navbar-toggler"
             style={{ filter: "invert(1)" }}
             type="button"
             data-bs-toggle="collapse"
