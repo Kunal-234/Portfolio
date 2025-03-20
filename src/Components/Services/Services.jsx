@@ -24,19 +24,19 @@ export default function Services() {
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam exercitationem quam, eius quas consectetur...</p>
           <button className='box-btn'>Read More</button>
         </div>
-        <div className="boxes">
+        <div className="boxes smHide">
           <h3>04</h3>
           <h2>NewsNexux</h2>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam exercitationem quam, eius quas consectetur...</p>
           <button className='box-btn'>Read More</button>
         </div>
-        <div className="boxes">
+        <div className="boxes smHide">
           <h3>05</h3>
           <h2>NewsNexux</h2>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam exercitationem quam, eius quas consectetur...</p>
           <button className='box-btn'>Read More</button>
         </div>
-        <div className="boxes">
+        <div className="boxes smHide">
           <h3>06</h3>
           <h2>NewsNexux</h2>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam exercitationem quam, eius quas consectetur...</p>
