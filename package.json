@@ -1,0 +1,41 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "cra-template": "1.2.0",
+    "matter-js": "^0.20.0",
+    "motion": "^12.5.0",
+    "react": "^19.0.0",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.5",
+    "react-scripts": "5.0.1",
+    "tailwind-merge": "^3.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

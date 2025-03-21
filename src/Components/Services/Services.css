@@ -1,0 +1,54 @@
+
+.services h1{
+    
+        font-size: 4rem;
+        color: white;
+        background: linear-gradient(120deg,rgb(74, 96, 241),rgba(228, 5, 217));
+    
+        font-weight: 660;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    
+}
+.contain{
+ width: 80vw;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ gap: 50px;
+}
+.boxes{
+    width: 370px;
+    height: inherit;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    transition: .5s;
+}
+.boxes:hover{
+    transform: scale(1.05);
+    background: linear-gradient(120deg,rgb(0, 8, 31),rgb(10, 0, 28));
+    
+
+}
+.boxes h2{
+    background: linear-gradient(120deg,rgb(74, 96, 241),rgba(228, 5, 217));
+    background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+}
+.box-btn{
+    border: none;
+    background: transparent;
+    color: rgb(164, 76, 246);
+}
+.services img{
+    z-index: -2;
+    mix-blend-mode: multiply;
+    opacity: .5;
+    position: absolute;
+    top: 200vh;
+    left: 0px;
+    width: 100vw;
+    height: 100%;
+}

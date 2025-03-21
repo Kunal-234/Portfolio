@@ -1,0 +1,52 @@
+
+.project h1{
+    font-size: 3.7rem;
+    color: white;
+    background: linear-gradient(120deg,rgb(74, 96, 241),rgba(228, 5, 217));
+    font-weight: 660;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.img-container{
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img-container img{
+    width: 380px;
+    height: 260px;
+    border-radius: 20px;
+    transition: .5s;
+}
+.img-container img:hover{
+    transform: scale(1.05);
+}
+.btn2{
+    border: 1px solid rgb(220, 50, 220);
+    border-radius: 30px;
+    height: 60px;
+    width: 180px;
+    background: transparent;
+    color: rgb(220, 50, 220);;
+}
+.btn2:hover{
+    /* background: linear-gradient(120deg, rgb(115, 0, 126),rgb(48, 0, 80)); */
+    /* color: black;
+    background-color: white;
+    border: 1px solid white; */
+    transform: scale(1.07);
+    transition: .2s;
+}
+
+@media screen and (max-width:480px){
+    .img-container img{
+        width: 350px;
+        height: 240px;
+        border-radius: 20px;
+        transition: .5s;
+    }
+    .smHide{
+        display: none;
+    }
+}

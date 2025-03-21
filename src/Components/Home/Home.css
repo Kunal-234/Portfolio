@@ -1,0 +1,9 @@
+body {
+    background: linear-gradient(140deg, rgb(1, 0, 42), rgb(0, 29, 57), rgb(0, 0, 0));
+    background-size: cover;
+    /* height: 100vh; */
+  }
+  .home{
+    height: 100vh;
+  }
+
