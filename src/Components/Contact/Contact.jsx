@@ -8,7 +8,12 @@ export default function Contact() {
         <div className="cont  d-flex">
         <div className="left  px-4">
             <h2 className='my-4'>Let's talk</h2>
+<<<<<<< HEAD
             <p>Hi, I'm Kunal Kumar, a passionate and aspiring tech enthusiast. If you'd like to collaborate or discuss anything tech-related, feel free to connect with me!</p>   
+=======
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea possimus et voluptas voluptatum quos reprehenderit, est impedit laborum consequuntur maxime?
+            </p>
+>>>>>>> d76eb5e72b2efb5ac8e188c833abcfa7aaf4cadc
             <div className="box"><i className="fa-solid fa-envelope"></i>kunaljsr11@gmail.com</div>
             <div className="box"><i className="fa-solid fa-phone-volume"></i>+91 8539872645</div>
             <div className="box"><i className="fa-solid fa-location-dot"></i>Jamshedpur,India</div>

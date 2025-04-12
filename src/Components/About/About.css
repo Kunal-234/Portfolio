@@ -59,7 +59,11 @@ background-clip: text;
     top: 100vh;
     left: 0px;
     width: 100vw;
+<<<<<<< HEAD
     height: 335%;
+=======
+    height: 465%;
+>>>>>>> d76eb5e72b2efb5ac8e188c833abcfa7aaf4cadc
     /* filter: invert(1); */
     /* object-fit: cover; */
   
@@ -68,6 +72,10 @@ background-clip: text;
 
 @media screen and (max-width: 480px){
     .il{
+<<<<<<< HEAD
         height: 375%;
+=======
+        height: 990%;
+>>>>>>> d76eb5e72b2efb5ac8e188c833abcfa7aaf4cadc
     }
 }

@@ -11,6 +11,7 @@
     gap: 40px;
     flex-wrap: wrap;
     justify-content: space-around;
+<<<<<<< HEAD
     backdrop-filter: blur(2px);
 }
 
@@ -35,6 +36,18 @@
 .cards:hover{
     transform: scale(1.05);
 
+=======
+}
+
+.img-container img{
+    width: 380px;
+    height: 260px;
+    border-radius: 20px;
+    transition: .5s;
+}
+.img-container img:hover{
+    transform: scale(1.05);
+>>>>>>> d76eb5e72b2efb5ac8e188c833abcfa7aaf4cadc
 }
 .btn2{
     border: 1px solid rgb(220, 50, 220);
@@ -52,6 +65,7 @@
     transform: scale(1.07);
     transition: .2s;
 }
+<<<<<<< HEAD
 .viewBtn{
     height: 30px;
     margin-top: 5px;
@@ -67,6 +81,9 @@
     background-color:rgb(83, 0, 151) ;
     color: black;
 }
+=======
+
+>>>>>>> d76eb5e72b2efb5ac8e188c833abcfa7aaf4cadc
 @media screen and (max-width:480px){
     .img-container img{
         width: 350px;

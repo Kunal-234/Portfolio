@@ -9,7 +9,11 @@ export default function Footer() {
 
         <div className="up-leftfoot">
             <h2>Kunal</h2>
+<<<<<<< HEAD
           <small>Hi, I'm Kunal Kumar, a passionate and aspiring tech enthusiast.</small><small> If you'd like to collaborate or discuss anything tech-related, feel free to connect with me!</small>   
+=======
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ut tempora tempore voluptates veniam dolores velit alias maiores.</p>            
+>>>>>>> d76eb5e72b2efb5ac8e188c833abcfa7aaf4cadc
         </div>
         <div className="up-rightfoot">
             <input type="email" placeholder='Enter Your Email' />
