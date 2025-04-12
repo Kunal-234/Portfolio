@@ -11,16 +11,30 @@
     gap: 40px;
     flex-wrap: wrap;
     justify-content: space-around;
+    backdrop-filter: blur(2px);
 }
 
 .img-container img{
-    width: 380px;
-    height: 260px;
+    width: 370px;
+    height: 200px;
     border-radius: 20px;
     transition: .5s;
 }
-.img-container img:hover{
+.cards{
+    backdrop-filter: blur(20px);
+    transition: .5s;   
+    gap: 7px;
+    background-color: transparent;
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.cards small{
+    color:  rgb(107, 9, 187);
+    
+}
+.cards:hover{
     transform: scale(1.05);
+
 }
 .btn2{
     border: 1px solid rgb(220, 50, 220);
@@ -38,7 +52,21 @@
     transform: scale(1.07);
     transition: .2s;
 }
-
+.viewBtn{
+    height: 30px;
+    margin-top: 5px;
+    width: 120px;
+    margin-left: 5px;
+    border-radius: 10px;
+  border: 1px solid rgb(83, 0, 151);
+  background-color: transparent;
+    color:  rgb(83, 0, 151);
+    font-size: 0.8rem;
+}
+.viewBtn:hover{
+    background-color:rgb(83, 0, 151) ;
+    color: black;
+}
 @media screen and (max-width:480px){
     .img-container img{
         width: 350px;

@@ -10,9 +10,8 @@ export default function About() {
            <img className='il' src={il} alt="" />
         </div>
         <div className="desc my-2 py-2">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum voluptatibus suscipit omnis exercitationem mollitia quos optio ipsam quaerat rerum haruus itaque quis aut, maiores asperiores voluptates vel excepturi iste cupiditate, recusandae autem!</p>
-       
-            <p>Lorem ipsum dolor sit amet consectetur,aboriosam ipuo aliquam repudiandae perferendis placeat laudantium quisquam soluta adipisci molestias, id a nobis tenetur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, expedita? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis, Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod provident magnam, delectus dicta excepturi et explicabo perferendis! Perferendis soluta quae animi quam repellendus omnis impedit, necessitatibus atque dolorem eligendi ipsum? iure?</p>
+          <p>Hi, I'm Kunal Kumar, a passionate and aspiring tech enthusiast currently pursuing a Bachelor of Computer Applications (BCA) at Srinath University, Jamshedpur. My journey in the world of technology started with a deep curiosity about how software works, leading me to explore various aspects of web development and programming.</p>
+          <p>If you'd like to collaborate or discuss anything tech-related, feel free to connect with me!</p>
         </div>
         <div className="skills d-flex flex-column">
           <div className="progress-bar d-flex flex-row"><p>HTML & CSS</p> <hr style={{width:'50%'}} /></div>

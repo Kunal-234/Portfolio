@@ -59,7 +59,7 @@ background-clip: text;
     top: 100vh;
     left: 0px;
     width: 100vw;
-    height: 465%;
+    height: 335%;
     /* filter: invert(1); */
     /* object-fit: cover; */
   
@@ -68,6 +68,6 @@ background-clip: text;
 
 @media screen and (max-width: 480px){
     .il{
-        height: 890%;
+        height: 375%;
     }
 }
