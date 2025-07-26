@@ -13,7 +13,6 @@ Welcome to my personal portfolio! This project showcases my skills, projects, an
 ## Technologies Used
 
 - **React.js** for component-based UI development.
-- **Matter.js** for creating interactive canvas elements.
 - **Bootstrap** for utility-first, modern styling.
 - **Vercel** for seamless deployment.
 - **Git** for version control and collaboration.
